@@ -32,8 +32,7 @@ int main() {
 
     cout << "Ingrese el valor de la hora laboral: ";
     cin >> valor_hora;
-    
-    getline(cin,nombre);
+   
     system("PAUSE");
     system("cls");
     

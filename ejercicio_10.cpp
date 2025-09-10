@@ -12,8 +12,8 @@ using namespace std;
  int main () {
  	float a; 
  	
- 	cout << "ingrese un numero: "; cin >> a;
- 	cout << "el valor absoluto de " << a << " es: " << val_ab (a); 
+ 	cout << "Ingrese un numero: "; cin >> a;
+ 	cout << "El valor absoluto de " << a << " es: " << val_ab (a); 
  	
  	return 0;
  }

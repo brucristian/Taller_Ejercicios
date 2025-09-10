@@ -1,20 +1,22 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
-void coseno(float r, float o){
-	float radianes = o * M_PI / 180.0;
+void coseno(double r, double o){
+	double radianes = o * M_PI / 180.0;
 	
-	float x=r*cos(radianes);
-	float y=r*sin(radianes);
+	double x=r*cos(radianes);
+	double y=r*sin(radianes);
 	
+	cout << fixed << setprecision(2);
 	cout<<"las coordenadas cartesiana son= ("<<x<<","<<y<<")."<<endl;
 }   
 
 
 
 int main() {
-   int x, y;
+   double  x, y;
    
    cout<<"ingrese el radio :"<<endl;
    cin>>x;
@@ -24,3 +26,4 @@ int main() {
    
    coseno(x,y);
 }
+

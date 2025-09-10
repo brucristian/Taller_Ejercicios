@@ -11,14 +11,14 @@ using namespace std;
 		
 		pot = pow (num, x);
 		
-		cout << "el factorial de " << num << " es: " << fac; 
+		cout << "El factorial de " << num << " es: " << fac; 
 		cout << "\nel " << num << " ^" << x << " = " << pot;  
 	}
 	int main () {
 		int num, x;
 		
-		cout << "digite un numero: "; cin >> num; 
-		cout << "a que numero quiere elevar al numero anterior? "; cin >> x; 
+		cout << "Digite un numero: "; cin >> num; 
+		cout << "¿A que numero quiere elevar al numero anterior? "; cin >> x; 
 		
 		fac_pot(num, x);
 	}

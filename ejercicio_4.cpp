@@ -1,4 +1,9 @@
-// Joan Sebastian Vergara Valencia; Codigo: 6902510055
+/*
+Joan Sebastian Vergara Valencia Codigo: 6902510055;
+Josue Villasmil Codigo: 6902510017
+Cristian Bru Codigo: 6902510029
+Armando Escobar Codigo: 6902510023
+*/
 
 #include<iostream>
 

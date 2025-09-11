@@ -1,5 +1,12 @@
 /*
-Diseñar una funcion que calcule la media de tres numeros leidos del teclado y 
+Joan Sebastian Vergara Valencia Codigo: 6902510055;
+Josue Villasmil Codigo: 6902510017
+Cristian Bru Codigo: 6902510029
+Armando Escobar Codigo: 6902510023
+*/
+
+/*
+DiseÃ±ar una funcion que calcule la media de tres numeros leidos del teclado y 
 poner un ejemplo de su aplicacion
 */
 

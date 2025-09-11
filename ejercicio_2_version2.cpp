@@ -1,3 +1,10 @@
+/*
+Joan Sebastian Vergara Valencia Codigo: 6902510055;
+Josue Villasmil Codigo: 6902510017
+Cristian Bru Codigo: 6902510029
+Armando Escobar Codigo: 6902510023
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -5,7 +12,7 @@
 #include<sstream>
 using namespace std;
 
-// Multiplica dos números grandes (como strings)
+// Multiplica dos nÃºmeros grandes (como strings)
 string multiplicar(string a, string b) {
     int n = a.size(), m = b.size();
     vector<int> res(n + m, 0);
@@ -43,7 +50,7 @@ int main() {
     cin >> num;
 
     if (num < 100 || num > 1000000) {
-        cout << "Número fuera del rango permitido." << endl;
+        cout << "NÃºmero fuera del rango permitido." << endl;
         return 0;
     }
 

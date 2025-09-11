@@ -1,4 +1,9 @@
-// Joan Sebastian Vergara Valencia; Codigo: 6902510055
+/*
+Joan Sebastian Vergara Valencia Codigo: 6902510055;
+Josue Villasmil Codigo: 6902510017
+Cristian Bru Codigo: 6902510029
+Armando Escobar Codigo: 6902510023
+*/
 
 #include<iostream>
 #include<sstream>
@@ -6,36 +11,36 @@
 using namespace std;
 
 /*
- * Función: bisiesto
+ * FunciÃ³n: bisiesto
  * ------------------
- * Determina si un año es bisiesto.
+ * Determina si un aÃ±o es bisiesto.
  *
- * Parámetros:
- *   x : entero que representa el año.
+ * ParÃ¡metros:
+ *   x : entero que representa el aÃ±o.
  *
  * Retorna:
- *   true si el año es bisiesto, false en caso contrario.
+ *   true si el aÃ±o es bisiesto, false en caso contrario.
  */
 bool bisiesto(int x) {
     return (x % 4 == 0 && x % 100 != 0) || (x % 400 == 0);
 }
 
 /*
- * Función: validDate
+ * FunciÃ³n: validDate
  * ------------------
- * Verifica si una fecha (día, mes, año) es válida.
+ * Verifica si una fecha (dÃ­a, mes, aÃ±o) es vÃ¡lida.
  *
- * Parámetros:
- *   x : entero que representa el día.
+ * ParÃ¡metros:
+ *   x : entero que representa el dÃ­a.
  *   y : entero que representa el mes.
- *   z : entero que representa el año.
+ *   z : entero que representa el aÃ±o.
  *
  * Retorna:
- *   true si la fecha es válida, false en caso contrario.
+ *   true si la fecha es vÃ¡lida, false en caso contrario.
  */
 bool validDate(int x, int y, int z) {
-    if (z < 1) return false;           // No existen años 0 o negativos
-    if (y < 1 || y > 12) return false; // Mes inválido (fuera de 1 a 12)
+    if (z < 1) return false;           // No existen aÃ±os 0 o negativos
+    if (y < 1 || y > 12) return false; // Mes invÃ¡lido (fuera de 1 a 12)
 
 	int dias;
     switch (y) {
@@ -52,7 +57,7 @@ bool validDate(int x, int y, int z) {
 	}
 
 
-    return false; // Si no se cumple, la fecha no es válida
+    return false; // Si no se cumple, la fecha no es vÃ¡lida
 }
  
  string conversor(int x) {
@@ -62,14 +67,14 @@ bool validDate(int x, int y, int z) {
  }
  
  /*
- * Función: fecha
+ * FunciÃ³n: fecha
  * ----------------
  * Devuelve una fecha en formato "dd/mm/aa".
  *
- * Parámetros:
- *   x : entero que representa el día.
+ * ParÃ¡metros:
+ *   x : entero que representa el dÃ­a.
  *   y : entero que representa el mes.
- *   z : entero que representa el año (puede ser completo o solo 2 dígitos).
+ *   z : entero que representa el aÃ±o (puede ser completo o solo 2 dÃ­gitos).
  *
  * Retorna:
  *   string con la fecha en formato "dd/mm/aa".
@@ -90,7 +95,7 @@ int main() {
 
     // Validar la fecha y mostrar resultado
     if (validDate(dia, mes, anio)) {
-    	// Convierto el año en string para usar solo los ultimos dos caracteres
+    	// Convierto el aÃ±o en string para usar solo los ultimos dos caracteres
         string x = conversor(anio);
         
         cout << endl << "La fecha es: " << fecha(dia, mes, x[x.length() - 2], x[x.length() - 1]);

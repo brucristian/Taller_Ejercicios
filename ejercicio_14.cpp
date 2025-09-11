@@ -1,3 +1,10 @@
+/*
+Joan Sebastian Vergara Valencia Codigo: 6902510055;
+Josue Villasmil Codigo: 6902510017
+Cristian Bru Codigo: 6902510029
+Armando Escobar Codigo: 6902510023
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std; 
@@ -18,7 +25,7 @@ using namespace std;
 		int num, x;
 		
 		cout << "Digite un numero: "; cin >> num; 
-		cout << "¿A que numero quiere elevar al numero anterior? "; cin >> x; 
+		cout << "Â¿A que numero quiere elevar al numero anterior? "; cin >> x; 
 		
 		fac_pot(num, x);
 	}
